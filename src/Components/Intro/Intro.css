@@ -1,0 +1,107 @@
+*{
+    cursor: default;
+}
+
+.container2 {
+   display: block;
+    justify-content: left;
+    align-items: center;
+    margin: top 100px; 
+    
+  }
+  
+  .content2 {
+    margin: top 100px; 
+    text-align:left;
+    line-height: 70px;
+    max-width: 1000px;
+  }
+  
+  .question2 {
+    
+    font-size: 1.4rem;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .blue-box2 {
+    width: 450px;
+    margin-top: 20px;
+    margin-right: 100px;
+    height: 150px;
+    background-color: #181087;
+    border-radius: 40px;
+    transition: transform 0.3s ease;
+    
+  }
+  .logoso img{
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .blue-box2 img{
+    display: inline;
+    transition: transform 0.3s ease;
+  }
+  
+  .description2 {
+    text-align: left;
+    font-size: 1.9rem;
+    width: 600px;
+    margin-top: -20px;
+  }
+  .description2 p{
+    color: grey;
+    font-size: 1.9rem;
+    display: inline;
+    margin-top: -20px;
+  }
+  .learn-more-btn2 {
+    background-color: #1f14c1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .learn-more-btn2 img{
+    width: 15px; 
+  margin-left: 10px;
+  transform: rotate(325deg);       
+  transition: transform 0.3s;
+  }
+  .learn-more-btn2:hover {
+    border: 10pxsolid #4d3bff;
+    border-radius: 30px;
+    background-image: linear-gradient(45deg,#ff4000,#356de8);
+    transform: scale(1.02); 
+  }
+  .rightcontent {
+    margin-top: -180px;
+    line-height: 30px;
+    float: left;
+    margin-left: 700px;
+  }
+  .adjustable-image {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 1px;
+    width: 1480px; 
+    height: auto; 
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+  }
+
+  
+  .adjustable-image:hover {
+    transform: scale(1.02); 
+
+
+  }
+  .logoso:hover{
+    transform: scale(1.1); 
+  }

@@ -1,0 +1,21 @@
+.footer-line {
+    border: none;
+    height: 1px; 
+    background-color: white; 
+    margin-top: 50px; 
+  }
+.footer-bottom-left img{
+    display: inline;
+    width: 300px;
+    margin-top: 10px;
+
+}
+.footer-bottom-right{
+    margin-bottom: 50px;
+    margin-left: 1000px;
+    text-align: left;
+    display: flex;
+    gap:50px;
+    padding-right: 50px;
+    margin-top: -50px;
+}

@@ -1,0 +1,140 @@
+nav {
+    width: 100%;
+    color: #fff;
+    padding: 4px 0;
+    position: fixed;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+.logo{
+    width: 180px;
+    float: left;
+    margin: 0;
+    cursor: pointer;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+ .dark-nav{
+    margin-top: -25px;
+  background: #06063d;
+    transition: 0.5s;
+    
+
+}
+.ph{
+    font-family: sans-serif;
+    background: transparent;
+  border: 2px solid white;
+  color: #F5F5F5;
+  padding: 9px 15px; 
+  border-radius: 30px;  
+
+}
+.ph li{
+    text-align: left;
+    float: left;
+   
+}
+.ph li:hover{
+    transform: scale(1.1); 
+    border: 10pxsolid #4d3bff;
+    border-radius: 30px;
+        background-image: linear-gradient(45deg,#ff4000,#356de8);
+      
+}
+.btnbluenav{
+    background: #0b56ce ;
+    color: #F5F5F5;
+    padding: 12px 15px;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnbluenav img{
+    width: 15px; 
+    margin-left: 10px;
+    transform: rotate(325deg);       
+    transition: transform 0.3s;
+  }
+  .btnbluenav:hover{
+    transform: scale(1.1); 
+    border: 10pxsolid #4d3bff;
+    border-radius: 30px;
+        background-image: linear-gradient(45deg,#ff4000,#356de8);
+  }
+.menu-icon{
+    display: none;
+}
+/*--------media query--*/
+@media (max-width:1200px){
+    .logo{
+        width: 120px;
+    }
+    nav ul li{
+        
+        font-size: 15px;
+        margin: 10px 15px;
+    }
+}
+.btnbluenav{
+    size: 10px;
+    margin: 10px -20px;
+}
+@media (max-width:1020px){
+nav{
+    padding: 15px 0;
+}
+nav ul{
+    position: fixed;
+    top:0;
+    right: -200px;
+    bottom:0;
+    background: #212ea0;
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+
+}
+nav ul li{
+    
+    display: block;
+    margin: 25px 40px;
+}
+.btnbluenav{
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom:0;
+    background: transparent;
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+    size: 7px;
+    margin: 10px -20px;
+}
+.menu-icon{
+    display: block;
+    width: 20px;
+    cursor: pointer;
+    margin-left: 500px;
+}
+
+}
